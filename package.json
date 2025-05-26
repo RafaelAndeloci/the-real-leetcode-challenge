@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:windows": "start chrome --remote-debugging-port=9222",
+    "start:linux": "google-chrome --remote-debugging-port=PORT"
   },
   "keywords": [],
   "author": "",
